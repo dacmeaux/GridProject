@@ -5,7 +5,7 @@ This class is used to create a grid of like items such as thumbnails for a catal
 
 __Here's How it Works__
 1. pass an array of data to the grid object (any HTML, text, etc).
-2. set the breakpoints for the grid (associative array with the column count as the key and the taeret viewport width as its value.
+2. set the breakpoints for the grid (associative array with the column count as the key and the target viewport width as its value.
 3. specify a css classname base for the grid.
 4. instruct the grid to generate the appropriate CSS.
 5. render the grid.
