@@ -12,7 +12,8 @@ __Here's How it Works__
 6. *That's it.* 
 
 __Example Implementation__
-  
+
+        require_once 'class.Grid_Object.php';
         $grid = Grid_Object::getInstance();
         
         // Set Breakpoints for this grid in descending order as number_of_column=>viewport_width
