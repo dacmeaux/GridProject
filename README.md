@@ -26,10 +26,10 @@ __Example Implementation__
         $grid->setContent(array('Cell One', 'Cell Two', 'Cell Three', 'Cell Four', 'Cell FIve', 
         'Cell Six', 'Cell Seven', 'Cell Eight', 'Cell   Nine', 'Cell Ten'));
         
-        // Instruct to grid to generate CSS
+        // Instruct the grid to generate CSS
         $grid->generateCss(true);
         
-        // Debug to see grid cells with color backgrounds
+        // Set debug to see grid cells with color backgrounds
         $grid->setDebug(true);
 
         // Render the grid
