@@ -17,7 +17,9 @@ __Example Implementation__
         $grid = Grid_Object::getInstance();
         
         // Set Breakpoints for this grid in descending order as number_of_columns=>viewport_width
-        (notice that colum five viewport width is only one pixel greater than column four viewport width. This is because the first colum uses min-width and all others use max-width for breakpoints. This ensures that the largest column count will be active from the next breakpoint up to the max viewport width).
+        (notice that colum five viewport width is only one pixel greater than column four viewport width. 
+        This is because the first colum uses min-width and all others use max-width for breakpoints. 
+        This ensures that the largest column count will be active from the next breakpoint up to the max viewport width).
         $grid->setColumns(array(5=>1025, 4=>1024, 3=>960, 2=>768, 1=>480));
         
         // Set base classname for the grid
