@@ -34,7 +34,7 @@ __Example Implementation__
         // You can create your own CSS but this is much more convenient
         $grid->generateCss(true);
         
-        // Set debug to see grid cells with color backgrounds
+        // Set debug to see grid cells with color backgrounds for testing
         $grid->setDebug(true);
 
         // Render the grid
