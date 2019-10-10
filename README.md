@@ -18,7 +18,7 @@ __Example Implementation__
         
         // Set Breakpoints for this grid in descending order as number_of_columns=>viewport_width
         (notice that colum five viewport width is only one pixel greater than column four viewport width. 
-        This is because the first colum uses min-width and all others use max-width for breakpoints. 
+        This is because the first column uses min-width and all others use max-width for breakpoints. 
         This ensures that the largest column count will be active from the next breakpoint up to the 
         max viewport width).
         $grid->setColumns(array(5=>1025, 4=>1024, 3=>960, 2=>768, 1=>480));
@@ -30,11 +30,11 @@ __Example Implementation__
         $grid->setContent(array('Cell One', 'Cell Two', 'Cell Three', 'Cell Four', 'Cell FIve', 
         'Cell Six', 'Cell Seven', 'Cell Eight', 'Cell   Nine', 'Cell Ten'));
         
-        // Instruct the grid to generate CSS
+        // Generate CSS
         // You can create your own CSS but this is much more convenient
         $grid->generateCss(true);
         
-        // Set debug to see grid cells with color backgrounds for testing
+        // Set debug to see grid cells with random background colors for testing
         $grid->setDebug(true);
 
         // Render the grid
